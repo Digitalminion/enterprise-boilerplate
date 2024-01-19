@@ -11,7 +11,6 @@
     "logging":  
       {
         "handlers": [
-          {"sink": "console", "level": "DEBUG"},
           {"sink": "logs/app.log", "rotation": "1 day", "level": "DEBUG"}
         ]
       }

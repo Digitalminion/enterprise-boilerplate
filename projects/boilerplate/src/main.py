@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 '''
+This project was created with:
 ________  .__       .__  __         .__      _____  .__       .__               
 \______ \ |__| ____ |__|/  |______  |  |    /     \ |__| ____ |__| ____   ____  
  |    |  \|  |/ ___\|  \   __\__  \ |  |   /  \ /  \|  |/    \|  |/  _ \ /    \ 
@@ -13,7 +14,7 @@ _____     _                   _            _____     _ _             _     _
 |   __|   |  _| -_|  _| . |  _| |_ -| -_|  | __ -| . | | | -_|  _| . | | .'|  _| -_|
 |_____|_|_|_| |___|_| |  _|_| |_|___|___|  |_____|___|_|_|___|_| |  _|_|__,|_| |___|
                       |_|                                        |_|           
-
+Digital Minion - Enterprise Boilerplate
 An extensible project framework for quickly building enterprise compliant python projects
 
 Copyright 2023 Digital Minion Llc
@@ -33,7 +34,7 @@ Copyright 2023 Digital Minion Llc
 __version__ = '0.0.1'
 __author__ = 'DigitalMinion'
 __email__ = 'overmind@digitalminion.com'
-
+import sys
 import argparse
 from loguru import logger
 import json
