@@ -39,6 +39,14 @@ import argparse
 from loguru import logger
 import json
 
+'''
+main.Main
+
+In General this file/class should never be editted. 
+The scope that it manages has been abstracted into config.json at the base of this project
+
+DO NOT EDIT
+'''
 class Main:
     def __init__(self):
         with open("./config.json", "r") as config_file:
