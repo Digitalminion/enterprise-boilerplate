@@ -15,7 +15,7 @@ _____     _                   _            _____     _ _             _     _
 
 An extensible project framework for quickly building enterprise compliant python projects
 
-Copyright 2023 Digital Minion Llc
+Copyright 2024 Digital Minion Llc
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -28,13 +28,20 @@ Copyright 2023 Digital Minion Llc
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+            ********************************************************************************
+            ********************************************************************************
+            **                                                                            **
+            **                          MAKE A COPY BEFORE EDITTING                       **
+            **                                                                            **
+            ** Make a copy of the folder containing this template file before editing it! **
+            **                                                                            **
+            **                          MAKE A COPY BEFORE EDITTING                       **
+            **                                                                            **
+            ********************************************************************************
+            ********************************************************************************
+
 '''
 __version__ = '0.0.1'
 __author__ = 'DigitalMinion'
 __email__ = 'overmind@digitalminion.com'
-
-'''
-Copy this folder before editing it!
-
-COPY BEFORE EDITTING
-'''

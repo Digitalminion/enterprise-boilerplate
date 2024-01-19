@@ -1,3 +1,4 @@
+
 '''
 Digital Minion - Enterprise Boilerplate
 An extensible project framework for quickly building enterprise compliant python projects
@@ -15,7 +16,7 @@ Copyright 2024 Digital Minion Llc
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
+   
             ********************************************************************************
             ********************************************************************************
             **                                                                            **
@@ -28,19 +29,14 @@ Copyright 2024 Digital Minion Llc
             ********************************************************************************
             ********************************************************************************
 
-boilerplate.module:
+boilerplate.router:
     implements:
-        BoilerplateModule
+        BoilerplateRoutes
+        BoilerplateRouter
 
 '''
+BoilerplateRoutes = []
 
-BoilerplateModule = {
-  "declarations": [
-    "BoilerplateComponent"
-  ],
-  "imports": [
-  ],
-  "schemas": [],
-  "providers": [],
-  "bootstrap": ["BoilerplateComponent"]
-}
+class BoilerplateRouter:
+    def __init__(self):
+        return None

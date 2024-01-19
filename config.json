@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "license": "Apache 2.0",
   "newProjectRoot": "projects",
   "defaultProject":"boilerplate",
   "projects":{
@@ -7,7 +8,8 @@
     "root": "projects/boilerplate",
     "sourceRoot": "projects/boilerplate/src",
     "prefix": "app",
-    "entryModule":"boilerplate.module",
+    "moduleName":"boilerplate",
+    "modulePrefix":"Boilerplate",
     "logging":  
       {
         "handlers": [
