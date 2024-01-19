@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "newProjectRoot": "projects",
+  "defaultProject":"boilerplate",
+  "projects":{
+    "boilerplate":{
+    "root": "projects/boilerplate",
+    "sourceRoot": "projects/boilerplate/src",
+    "prefix": "app",
+    "entryModule":"boilerplate.module",
+    "logging":  
+      {
+        "handlers": [
+          {"sink": "console", "level": "DEBUG"},
+          {"sink": "logs/app.log", "rotation": "1 day", "level": "DEBUG"}
+        ]
+      }
+    }
+  }
+}
